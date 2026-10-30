@@ -1,0 +1,12 @@
+Read-only WeChat database primitives adapted from:
+https://github.com/fanyuantaier/wechatauto-replica
+Revision: d322c4a9b1124228820bab363e5676016f188fc6
+File: wechatauto/db.py
+License: Apache-2.0 (LICENSE-wechatauto.txt)
+
+Modified: extracted directory discovery, SQLCipher page decoding, text decoding,
+module identification, and read-only Config.Cipher scanning primitives.
+Excluded upstream key caches, account fallback selection, history exports,
+diagnostics, database-file writes, listeners, and UI automation.
+The application owns account verification, in-memory snapshots, committed-WAL
+validation, fixed-message identifiers, and per-person conversation isolation.

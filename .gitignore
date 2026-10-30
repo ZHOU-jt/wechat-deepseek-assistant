@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.lnk
+.env
+.env.*
+!.env.example
+assistant/settings.json
+assistant/prompt.txt
+cache/
+*.bin
+dist/
+runtime/
+Weixin/

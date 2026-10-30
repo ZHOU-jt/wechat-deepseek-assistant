@@ -1,0 +1,6 @@
+{
+  "model": "deepseek-flash",
+  "prefix": "@助手",
+  "groups": [],
+  "all_friends": false
+}
